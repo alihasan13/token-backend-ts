@@ -19,7 +19,7 @@ const USER_URL = ''
 
 export async function getGithubUser(code:string) {
     const token = await getAccessToken(code)
-    return getuser(token)
+    // return getuser(token)
 }
 
 async function getAccessToken(code: string){
