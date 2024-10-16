@@ -1,13 +1,12 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
     "target": "es5",
-    "": true,
     "strict": true,
     "esModuleInterop": true,
     "composite": true,
     "baseUrl": ".",
     "paths": {
-        "@shared": ["./shared "]
+      "@shared": ["./shared"]
     }
-  },
+  }
 }
